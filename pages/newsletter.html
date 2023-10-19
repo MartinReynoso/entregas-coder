@@ -4,8 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Newsletter</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+    <header class="header-news">
+        <a href="../index.html"><img class="logo" src="../assets/img/otrocamino-logo.png" alt="logo sitio web"></a>
+        <nav>
+            <ul class="navbar-news">
+                <li><a href="">SECCIONES</a></li>
+                <li><a href="staff.html" target="_blank">STAFF</a></li>
+                <li><a href="">TRANSPARENCIA</a></li>
+                <li><button class="login"><a href="">LOG IN</a></button></li>
+            </ul>
+        </nav>
+    </header>
     
+    <main>
+        <section>
+            <div>
+                <p><h1>Suscribite a nuestro Newsletter semanal, te enviaremos noticias con el análisis de nuestros destacados profesionales. <br> Armate de herramientas para combatir la desinformación.</h1></p>
+            </div>
+            <div>
+                <form action="">
+                    <label for="nombre">
+                        <span>NOMBRE</span>
+                        <input type="text" id="nombre" placeholder="¿Cuál es tu nombre?" required>
+                    </label>
+                    <label for="email">
+                        <span>EMAIL</span>
+                        <input type="email" id="email" placeholder="Dejanos tu email" required>
+                    </label>
+                    <select name="tema de interés" id="" required>
+                        <option value="Seleccioná un tema">Seleccioná un tema</option>
+                        <option value="Política">Política</option>
+                        <option value="Economía">Economía</option>
+                        <option value="Geopolítica">Geopolítica</option>
+                        <option value="Géneros">Géneros</option>
+                        <option value="Judiciales">Judiciales</option>
+                        <option value="Derechos Humanos">Derechos Humanos</option>
+                        <option value="Sindicales">Sindicales</option>
+                        <option value="Culturales">Culturales</option>
+                    </select>
+                    <label for="comentario">
+                        <span>DEJANOS TU COMENTARIO</span>
+                        <input type="text" id="comentario" placeholder="">
+                    </label>
+                    <label for="acepta">
+                        <input type="checkbox" id="acepta" name="acepta" value="1" required> Acepto recibir el newsletter semanal
+                    </label>
+                    <input type="submit" placeholder="Enviar solicitud">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <div>
+                <ul class="footer-list">
+                    <li><a href=""><h3>CONTACTANOS</h3></a></li>
+                    <li><a href="#"><h3>NEWSLETTER</h3></a></li>
+                    <li><a href=""><h3>OBJETIVOS</h3></a></li>
+                    <li><a href=""><h3>BREVE HISTORIA</h3></a></li>
+                    <li><a href=""><h3>NUESTRA EDITORIAL</h3></a></li>
+                    <li><a href=""><h3>ESPECIALES DE DOMINGO</h3></a></li>
+                    <li><a href=""><h3>REVISTA MENSUAL</h3></a></li>
+                    <li><a href=""><h3>AUSPICIANTES</h3></a></li>
+                    <li><a href=""><h3>NUESTROS AMIGOS</h3></a></li>
+                    
+                    <div>
+                        <p>República Argentina | Todos los derechos reservados | <a href="">Política de privacidad</a> | <a href="">Términos y Condiciones</a></p>
+                    </div>
+                    <div>
+                        <span>© 2023 www.otrocamino.com</span>
+                    </div>
+                </ul>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>
